@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <center>
+            <h1>REGISTRATION FORM</h1>
+        </center>
+        <table>
+            <tr>
+                <td><label>NAME :</label></td>  
+                <td><input  type="text" id="txtbox" name="txt_name" placeholder="Enter name"  required></td>              
+            </tr>
+            <tr>
+                <td><label>AGE :</label></td>  
+                <td><input  type="number" min="18" max="50"></td>              
+            </tr>
+            <tr>
+                <td><label>ADDRESS :</label></td>  
+                <td><textarea></textarea></td>              
+            </tr>
+            <tr>
+                <td><label>EMAIL :</label></td>  
+                <td><input  type="email" ></td>              
+            </tr>
+            <tr>
+                <td><label>PHOTO :</label></td>  
+                <td><input  type="file" ></td>              
+            </tr>
+            <tr>
+                <td><label>PHONE NO. :</label></td>  
+                <td><input  type="tel" pattern="\d{10}"></td>              
+            </tr>
+            <tr>
+                <td><label>DATE :</label></td>  
+                <td><input  type="date" ></td>              
+            </tr>
+            <tr>
+                <td><label>DISTRICT :</label></td>  
+                <td>
+                    <select>
+                        <option disabled selected>Select</option>
+                        <option>Kannur</option>
+                        <option>Kollam</option>
+                    </select>
+                </td>              
+            </tr>
+            <tr>
+                <td><label>GENDER :</label></td>  
+                <td><input  type="radio" name="gen" value="MALE" > MALE<br>   
+                <input  type="radio" name="gen" value="FEMALE" > FEMALE</td>             
+            </tr>
+            <tr>
+                <td><label>QUALIFICATION :</label></td>  
+                <td><input  type="checkbox"  name="c1" value="SSLC">SSLC<br>
+                    <input  type="checkbox"  name="c2" value="PLUSTWO">PLUSTWO<br>
+                    <input  type="checkbox"  name="c3" value="B-TECH">B-TECH<br>
+                    <input  type="checkbox"  name="c4" value="MCA">MCA<br>
+                    <input  type="checkbox"  name="c5" value="GRADUATE">GRADUATE<br>
+                </td>              
+            </tr>
+            <tr>
+                <td><label>PASSWORD :</label></td>  
+                <td><input  type="password" ></td>              
+            </tr>
+            <tr>
+                <td></td>  
+                <td><input  type="submit" value="REGISTER">
+                    <input type="reset" value="RESET">
+                </td>              
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
